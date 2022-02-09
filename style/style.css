@@ -55,6 +55,7 @@ body button {
           align-items: center;
   top: 0;
   position: fixed;
+  overflow-y: scroll;
   width: 100%;
   height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#4A4E53), to(#0D1116));
@@ -65,6 +66,7 @@ body button {
   position: relative;
   padding: 0 20px;
   margin: 20px 0;
+  overflow-y: scroll;
   width: 428px;
   height: 926px;
   display: -webkit-box;
