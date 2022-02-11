@@ -14,7 +14,6 @@ body {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
-  background-color: #52565B;
 }
 
 body a, body p, body button {
@@ -54,9 +53,7 @@ body button {
 
 html, body {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#4A4E53), to(#0D1116));
-  background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
-  background: -webkit-linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
+  background-color: #52565B;
 }
 
 .taplink_body {
@@ -72,6 +69,8 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4A4E53), to(#0D1116));
+  background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

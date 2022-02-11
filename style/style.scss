@@ -9,7 +9,6 @@ body{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-color:#52565B;
 
     a,p,button{
         font-family: 'Montserrat',sans-serif;
@@ -50,8 +49,7 @@ body{
 
 html,body{
     min-height: 100vh;
-    background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
-    background: -webkit-linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
+    background-color:#52565B;
 }
 
 
@@ -63,6 +61,7 @@ html,body{
     display:flex;
     align-items:center;
     justify-content: space-between;
+    background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
     flex-direction: column;
     border-radius:40px;
 
