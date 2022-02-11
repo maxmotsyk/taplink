@@ -203,6 +203,7 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 20px;
 }
 
 .taplink_body .social_network a:not(:last-child) {
