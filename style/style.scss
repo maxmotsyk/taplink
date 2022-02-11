@@ -50,6 +50,7 @@ body{
 
 html,body{
     min-height: 100vh;
+    background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
 }
 
 
@@ -58,14 +59,14 @@ html,body{
     position: relative;
     width: 375px;
     padding: 20px;
-    background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
     display:flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     border-radius:40px;
 
     .Qr_row{
+        margin-top: 20px;
         width: 100%;
         display: flex;
         justify-content: flex-end;
