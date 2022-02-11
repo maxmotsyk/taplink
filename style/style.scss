@@ -51,6 +51,7 @@ body{
 html,body{
     min-height: 100vh;
     background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
+    background: -webkit-linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
 }
 
 
