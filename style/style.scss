@@ -256,6 +256,10 @@ html,body{
 
 @media screen and (max-width: 430px){
 
+    body{
+        background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%) !important;
+    }
+
     .taplink_body{
         padding: 0 20px !important;
         background: linear-gradient(180deg, #4A4E53 0%, #0D1116 100%);
